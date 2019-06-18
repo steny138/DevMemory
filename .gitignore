@@ -9,7 +9,12 @@ node_modules
 
 # Book build output
 _book
+
+# jekyll not used
 _site
+.sass-cache
+.jekyll-metadata
+
 # eBook build output
 *.epub
 *.mobi
