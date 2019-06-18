@@ -19,17 +19,43 @@ description: >- # this means to ignore newlines until "baseurl:"
   自從我老了就什麼都記不住了，我想在這裡留下大腦記憶的index, 依靠索引快速找回大腦記憶.
   這可能比銀杏還好用...
 
-baseurl: "/DevMemory" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: steny138
+baseurl: "/DevMemory" 
+url: "" 
+tagline: memory index
+location: Taiwan
+date: true
+
+# google_analytics: UA-101394056-1
+logo: "/assets/images/df_logo.jpg"
+float_logo: true # true, false (default)
+cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+name: 'Yuchen Liu'
+author: 'Yuchen Liu'
+author_image: "/assets/images/author.jpg"
+
+# User Setting
 github_username:  steny138
+social:
+  - icon:	github
+    url:	https://github.com/steny138
+    desc:	Fork me on github
+    # share_url:
+    # share_title:
+    # share_link:
 
 # Build settings
 markdown: kramdown
 theme: minima
+permalink: pretty
+highlighter: pygments
+paginate: 5
 plugins:
   - jekyll-feed
 
+gems:
+  - jemoji
+  - jekyll-paginate
+  
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
