@@ -26,12 +26,12 @@ location: Taiwan
 date: true
 
 # google_analytics: UA-101394056-1
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/lyc_logo.jpg"
 float_logo: true # true, false (default)
 cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
 name: 'Yuchen Liu'
 author: 'Yuchen Liu'
-author_image: "/assets/images/author.jpg"
+author_image: "/assets/images/author_lyc.jpg"
 
 # User Setting
 github_username:  steny138
