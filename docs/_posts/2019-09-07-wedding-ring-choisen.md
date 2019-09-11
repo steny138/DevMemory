@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  在iTerm2上安裝zsh
+title:  婚戒挑選心得
 date:   2019-09-07 22:30:00 +0800
 categories: wedding ring
 author: yuchen
