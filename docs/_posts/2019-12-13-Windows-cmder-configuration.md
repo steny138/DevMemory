@@ -6,6 +6,7 @@ categories: zsh oh-my-zsh windows wsl cmder
 author: yuchen
 ---
 
+
 # 使用oh-my-zsh 在Cmder上 用windows 10
 
 ## Install
@@ -41,24 +42,16 @@ author: yuchen
 1. 可以自行從github migrate 專案到github.everxxxst.com.tw
 2. apt-get 設定防火牆
 
-```bash
+```
 sudo vim /etc/apt/apt.conf
-Acquire::http::Proxy 
-"http://proxy.seed.net.tw:8080"
-;
+Acquire::http::Proxy "http://proxy.seed.net.tw:8080";
 
 或設定Linux Proxy
-echo
- 
-"export http_proxy=http://proxy.example.com"
+echo "export http_proxy=http://proxy.example.com"
  >> ~/.bashrc
-echo
- 
-"export https_proxy=https://proxy.example.com"
+echo "export https_proxy=https://proxy.example.com"
  >> ~/.bashrc
-
 ```
-
 ---
 
 - 在 WSL 上 安裝zsh
@@ -71,7 +64,7 @@ echo
 
 - 在 WSL 上 安裝oh-my-zsh 相關套件
 
-```bash
+```
 sh -c 
 "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions
@@ -92,13 +85,10 @@ https://github.com/robbyrussell/oh-my-zsh/wiki/themes
 
 2. 使用 bash 修改 ~/.bashrc。
 
-```bash
+```
 $ vim ~/.bashrc
 # docker
-PATH=
-"
-$PATH
-:/mnt/c/Program\ Files/Docker/Docker/resources/bin"
+PATH="$PATH:/mnt/c/Program\ Files/Docker/Docker/resources/bin"
 alias docker=docker.exe
 alias docker-machine=docker-machine.exe
 alias docker-compose=docker-compose.exe
