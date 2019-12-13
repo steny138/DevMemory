@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  在windows 10 上 使用Cmder與WSL建立與Mac Iterm2 相同的開發體驗
+title:  在windows 10上使用Cmder與WSL建立與Mac+Iterm2相同的開發體驗
 date:   2019-12-13 10:40:00 +0800
 categories: zsh oh-my-zsh windows wsl cmder
-author: yuchen
+author: yuchen
 ---
 
 # 使用oh-my-zsh 在Cmder上 用windows 10
