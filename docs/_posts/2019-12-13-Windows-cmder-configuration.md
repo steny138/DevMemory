@@ -41,7 +41,7 @@ author: yuchen
 1. 可以自行從github migrate 專案到github.everxxxst.com.tw
 2. apt-get 設定防火牆
 
-bash
+```bash
 sudo vim /etc/apt/apt.conf
 Acquire::http::Proxy 
 "http://proxy.seed.net.tw:8080"
@@ -92,7 +92,7 @@ https://github.com/robbyrussell/oh-my-zsh/wiki/themes
 
 2. 使用 bash 修改 ~/.bashrc。
 
-bash
+```bash
 $ vim ~/.bashrc
 # docker
 PATH=
