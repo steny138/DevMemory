@@ -92,8 +92,8 @@ choco install privoxy
 此IP查詢的方式為 先查詢所有網路使用狀況
 > ipconfig /all
 找到下述的 yper-V Virtual Ethernet Adapter #3
-```
-Ethernet adapter vEthernet (DockerNAT):
+
+```Ethernet adapter vEthernet (DockerNAT):
 
    Connection-specific DNS Suffix  . :
    Description . . . . . . . . . . . : Hyper-V Virtual Ethernet Adapter #3
