@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  在windows 10上安裝Privoxy建立local proxy 轉發http request
-date:   2020-02-07:40:00 +0800
+date:   2020-02-07 11:40:00 +0800
 categories: privoxy windows docker
 author: yuchen
 ---
