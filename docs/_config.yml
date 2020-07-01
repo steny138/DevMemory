@@ -47,7 +47,7 @@ social:
 markdown: kramdown
 theme: minima
 permalink: pretty
-highlighter: pygments
+highlighter: rouge
 paginate: 5
 plugins:
   - jekyll-feed
